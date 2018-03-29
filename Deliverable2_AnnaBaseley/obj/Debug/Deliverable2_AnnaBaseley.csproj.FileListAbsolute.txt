@@ -1,0 +1,7 @@
+C:\Users\akbas\source\repos\GC PreWork\Deliverable2_AnnaBaseley\Deliverable2_AnnaBaseley\bin\Debug\Deliverable2_AnnaBaseley.exe.config
+C:\Users\akbas\source\repos\GC PreWork\Deliverable2_AnnaBaseley\Deliverable2_AnnaBaseley\bin\Debug\Deliverable2_AnnaBaseley.exe
+C:\Users\akbas\source\repos\GC PreWork\Deliverable2_AnnaBaseley\Deliverable2_AnnaBaseley\bin\Debug\Deliverable2_AnnaBaseley.pdb
+C:\Users\akbas\source\repos\GC PreWork\Deliverable2_AnnaBaseley\Deliverable2_AnnaBaseley\obj\Debug\Deliverable2_AnnaBaseley.csprojResolveAssemblyReference.cache
+C:\Users\akbas\source\repos\GC PreWork\Deliverable2_AnnaBaseley\Deliverable2_AnnaBaseley\obj\Debug\Deliverable2_AnnaBaseley.csproj.CoreCompileInputs.cache
+C:\Users\akbas\source\repos\GC PreWork\Deliverable2_AnnaBaseley\Deliverable2_AnnaBaseley\obj\Debug\Deliverable2_AnnaBaseley.exe
+C:\Users\akbas\source\repos\GC PreWork\Deliverable2_AnnaBaseley\Deliverable2_AnnaBaseley\obj\Debug\Deliverable2_AnnaBaseley.pdb
