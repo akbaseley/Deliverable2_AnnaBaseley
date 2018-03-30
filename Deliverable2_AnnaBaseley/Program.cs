@@ -10,6 +10,7 @@ namespace Deliverable2_AnnaBaseley
     {
         static void Main(string[] args)
         {
+            //This pulls the information from the Date class.
             Date newDate = new Date();
             newDate.GetDatesfromUser();
             Console.ReadKey();
@@ -18,7 +19,8 @@ namespace Deliverable2_AnnaBaseley
     class Date
     {
         static public DateTime birthDay, toDay;
-
+        
+        //This is where the program asks the user for two dates: their date of birth & the current date.
         public void GetDatesfromUser()
         {
             Console.WriteLine("Please enter your birthday (Month/Day/Year) and the time you were born (HH:MM PM/AM).");
@@ -26,7 +28,7 @@ namespace Deliverable2_AnnaBaseley
 
             string[] formats = 
                 {
-
+                //This string array allows the program to read a number of date variations from the user.
                 "MM/dd/yyyy", "M/dd/yyyy", "M/d/yyyy", "MM/d/yyyy",
                 "MM/dd/yy", "M/d/yy", "M/d/yy", "MM/d/yy",
 
@@ -56,6 +58,8 @@ namespace Deliverable2_AnnaBaseley
                 Console.WriteLine("This does not appear to be in the right format.  Please try again.");
             }
 
+            //This is where the computer subtracts the birthday from the current date.
+            //It then relays that information to the user in days, hours, and minutes.
             TimeSpan dateDiff = toDay.Subtract(birthDay);
             Console.Write("You have been alive for {0} days, ", dateDiff.Days);
             Console.Write("{0} hours, ", dateDiff.Hours);
@@ -63,7 +67,3 @@ namespace Deliverable2_AnnaBaseley
         }
     }
 }
-
-//What I've done:
-    //I created the code to supposedly get to the two dates for User's birthday and the current date.
-    //Code created that SHOULD display the difference between the two.  Math is not going through, though.
